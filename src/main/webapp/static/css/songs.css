@@ -1,0 +1,221 @@
+html{
+    display: block;
+}
+.mod_search {
+    position: relative;
+    height: 247px;
+    background-position: 50%;
+    background-size: cover;
+}
+div {
+    display: block;
+}
+/*body {*/
+/*    background-color: #fafafa;*/
+/*}*/
+.mod_search .mod_search_input, .mod_search .search_input__input {
+    width: 554px;
+    height: 50px;
+}
+.mod_search .mod_search_input {
+    border: 0 none;
+    padding: 0 70px 0 15px;
+    line-height: 50px;
+    left: 50%;
+    top: 85px;
+    margin-top: 0;
+    margin-left: -322px;
+    background: #fff;
+}
+.mod_search_input {
+    border: 1px solid #c9c9c9;
+    padding: 0 33px 0 11px;
+    line-height: 36px;
+    height: 36px;
+    margin-top: 26px;
+    position: relative;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: width .6s ease-out;
+    transition: width .6s ease-out;
+}
+.mod_search .mod_search_input, .mod_search .search_input__input {
+    width: 554px;
+    height: 50px;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.mod_search .search_input__btn {
+     width: 50px;
+     height: 50px;
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+ }
+.search_input__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0 none;
+    width: 38px;
+    height: 35px;
+    overflow: visible;
+    background: 0 0;
+}
+button {
+    cursor: pointer;
+}
+body, button, input, select, textarea, th {
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+    font-family: Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif/9;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.icon_search {
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -40px;
+}
+.sprite, .sprite_before:before {
+    background-image: url(https://y.gtimg.cn/mediastyle/yqq/img/icon_sprite.png?max_age=2592000&v=85678e8…);
+    background-image: -webkit-image-set(url(https://y.gtimg.cn/mediastyle/yqq/img/icon_sprite.png?max_age=2592000&v=85678e8…&v=85678e8…) 1x,url(https://y.gtimg.cn/mediastyle/yqq/img/icon_sprite@2x.png?max_age=2592000&v=85678e8…&v=85678e8…&v=ce93ff1…) 2x);
+}
+/*config table*/
+.el-table {
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-table--border, .el-table--group{
+    border: none;
+}
+.el-table__header-wrapper th:nth-last-of-type(2){
+    border-right: none;
+}
+.el-table--border::after, .el-table--group::after{
+    width: 0;
+}
+.el-table td, .el-table th.is-leaf {
+    border-bottom: none;
+    /* border-bottom: 1px solid #EBEEF5; */
+}
+.el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: #FFFFFF;
+}
+.el-table th{
+    color: #999999;
+    background-color: #fafafa;
+}
+/*config table*/
+.icon_txt {
+    font: 0/0 a;
+}
+.mod_player a:hover {
+    color: #fff;
+}
+.btn_big_down:hover, .btn_big_like:hover, .btn_big_next:hover, .btn_big_only:hover, .btn_big_play:hover, .btn_big_prev:hover, .btn_big_style_list:hover, .btn_big_style_order:hover, .btn_big_style_random:hover, .btn_big_style_single:hover, .btn_big_voice:hover {
+    opacity: 1;
+    filter: none;
+}
+.mod_player, .mod_player a {
+    color: #bdbdbe;
+    color: rgba(225,225,225,.8);
+}
+a:focus, button:focus, input:focus {
+    outline: 0;
+}
+a:hover {
+    color: #409EFF;
+    text-decoration: none;
+}
+.mod_page_nav {
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0;
+}
+/* Global Button Style for our like/unlike el */
+.like {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0);
+}
+
+/* Global Button Hover Style for our like/unlike el */
+.like:hover {
+    background: rgba(255,255,255,0);
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+}
+
+/* Liked/Unliked states of our like icon */
+.liked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='%23de3618' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+.unliked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='none' stroke='%23666' stroke-width='5' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+.like span {
+    text-indent: -1000px;
+    fone-size: 1px;
+}
+
+/* Global aspects of the like icon (holding our icon state view) */
+.like-icon {
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 15%;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+}
+/*带背景的分页按钮背景色begin*/
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #409EFF;
+    color: #FFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li.active {
+    color: #fff;
+    cursor: default;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:hover {
+    color: #409EFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #409EFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+    background-color: #409EFF;
+    color: #FFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+    background-color: #fff;
+    color: #A5A6B6;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+/*带背景的分页按钮背景色end*/

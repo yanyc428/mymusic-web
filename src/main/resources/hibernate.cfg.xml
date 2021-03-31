@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!--hibernate 配置-->
+<hibernate-configuration>
+
+    <session-factory>
+        <!--数据库方言-->
+        <property name="dialect">
+            org.hibernate.dialect.MySQL8Dialect
+        </property>
+        <!--自动生成表 开启-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!--数据库连接配置-->
+        <property name="hibernate.connection.url">
+            url
+        </property>
+        <property name="hibernate.connection.username">username</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+
+        <!--打印sql-->
+        <property name="hibernate.show_sql">true</property>
+
+        <!--扫描实体-->
+        <mapping class="cn.com.yanyuchen.mymusic_web.entity.User"/>
+        <mapping class="cn.com.yanyuchen.mymusic_web.entity.Singer"/>
+        <mapping class="cn.com.yanyuchen.mymusic_web.entity.Song"/>
+    </session-factory>
+
+</hibernate-configuration>

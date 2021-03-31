@@ -1,0 +1,167 @@
+html {
+    display: block;
+}
+body {
+    min-width: 1240px;
+    overflow-y: scroll;
+}
+body {
+    background-color: #fafafa;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+body, button, input, select, textarea, th {
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+    font-family: Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif/9;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+.mod_profile, .mod_profile .section_inner {
+    height: 400px;
+}
+.mod_profile {
+    height: 400px;
+    padding-top: 65px;
+    background: url(http://p1.music.126.net/ZZeoOf-ih4r7hoe6eM0n_A==/109951165669563121.jpg) 50% no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.mod_profile, .mod_profile .section_inner {
+    height: 400px;
+}
+.main, .section_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.profile__cover_link {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+}
+.profile__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #fff;
+    border-radius: 99px;
+    background: #fff;
+}
+img {
+    border: 0 none;
+    -ms-interpolation-mode: bicubic;
+    image-rendering: optimizeQuality;
+}
+.profile__tit {
+    font-size: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.profile__name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 360px;
+    margin-right: 4px;
+}
+
+/* Global Button Style for our like/unlike el */
+.like {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0);
+}
+
+/* Global Button Hover Style for our like/unlike el */
+.like:hover {
+    background: rgba(255,255,255,0);
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+}
+
+/* Liked/Unliked states of our like icon */
+.liked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='%23de3618' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+.unliked .like-icon-state {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewbox='0 0 100 100'><path fill='none' stroke='%23666' stroke-width='5' d='M50,88.87 C76.67,70.46 90,53.9 90,39.17 C90,17.08 63.12,3.84 50,27.63 C38.875,3.85 10,17.08 10,39.17 C10,53.9 23.33,70.46 50,88.87 Z'/></svg>");
+}
+
+.like span {
+    text-indent: -1000px;
+    fone-size: 1px;
+}
+
+/* Global aspects of the like icon (holding our icon state view) */
+.like-icon {
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 15%;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+}
+/*config table*/
+.el-table {
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-table--border, .el-table--group{
+    border: none;
+}
+.el-table__header-wrapper th:nth-last-of-type(2){
+    border-right: none;
+}
+.el-table--border::after, .el-table--group::after{
+    width: 0;
+}
+.el-table td, .el-table th.is-leaf {
+    border-bottom: none;
+    /* border-bottom: 1px solid #EBEEF5; */
+}
+.el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: #FFFFFF;
+}
+.el-table th{
+    color: #999999;
+    background-color: #fafafa;
+}
+/*config table*/
+a:focus, button:focus, input:focus {
+    outline: 0;
+}

@@ -1,0 +1,174 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: 0 0;
+}
+body {
+    min-width: 1240px;
+    overflow-y: scroll;
+}
+body {
+    background-color: #fafafa;
+}
+body, button, input, select, textarea, th {
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+    font-family: Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif/9;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.mod_singer_push {
+    position: relative;
+    width: 100%;
+    height: 376px;
+    background: url(https://y.gtimg.cn/mediastyle/yqq/img/bg_singer.jpg) 50% 0 repeat-x;
+    overflow: hidden;
+}
+div {
+    display: block;
+}
+.main, .section_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+div {
+    display: block;
+}
+.singer_push__tit {
+    width: 494px;
+    height: 60px;
+    margin-top: 103px;
+    background-position: 0 0;
+}
+.singer_push__desc, .singer_push__tit {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://y.gtimg.cn/mediastyle/yqq/img/singer_tit.png?max_age=2592000&v=249247c…);
+    background-image: -webkit-image-set(url(https://y.gtimg.cn/mediastyle/yqq/img/singer_tit.png?max_age=2592000&v=249247c…) 1x,url(https://y.gtimg.cn/mediastyle/yqq/img/singer_tit@2x.png?max_age=2592000&v=249247c…&v=33bde8f…) 2x);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.icon_txt {
+    font: 0/0 a;
+}
+i {
+    font-style: italic;
+}
+.singer_list_txt {
+    margin-right: -20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.singer_list_txt__item {
+    float: left;
+    width: 20%;
+}
+li {
+    list-style: none;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.singer_list_txt__link {
+    float: left;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 36px;
+}
+.mod_page_nav {
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+/*带背景的分页按钮背景色begin*/
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #409EFF;
+    color: #FFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li.active {
+    color: #fff;
+    cursor: default;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:hover {
+    color: #409EFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #409EFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+    background-color: #409EFF;
+    color: #FFF;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+    background-color: #fff;
+    color: #A5A6B6;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+/*带背景的分页按钮背景色end*/
+.el-radio-button:first-child .el-radio-button__inner {
+    border-left: none;
+    border-radius: 0;
+}
+.el-radio-button__inner {
+    border: none;
+}
+.el-radio-button:last-child .el-radio-button__inner {
+    border-radius: 0;
+}
+.el-popover, .el-radio-button:first-child:last-child .el-radio-button__inner {
+    border-radius: 0;
+}
